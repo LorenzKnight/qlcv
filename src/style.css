@@ -1,0 +1,226 @@
+a {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 10px 0;
+    color: #76b72a;
+}
+h3 {
+    margin: 12px;
+    color: #3a3938;
+}
+h4 {
+    margin: 0;
+    color: #3a3938;
+}
+h5 {
+    margin: 18px 0 12px;
+}
+#app {
+    font-family: Barlow;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+  }
+#overheader {
+    width: 1024px;
+    height: 90px;
+    padding: 0; 
+    background-color: #76b72a;
+    margin: 0 auto;
+}
+
+
+
+/*-----MENU-----*/
+* {
+	margin: 0px;
+	padding: 0px; 
+	outline: 0;
+}
+
+#menu {
+	text-align: center;
+	/*font-size: 0.7em;*/
+    width: 1024px;
+    background-color: #3a3938;
+    margin: 0 0 15px 0;
+}
+
+#menu ul {
+	list-style-type: none;
+}
+
+#menu ul li {
+    width: 100px;
+}
+
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+    color: #fff;
+    background-color: #3a3938;
+	/*border: solid 1px #fff;*/
+	padding: 5.5px;
+    position: relative;
+
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#menu ul li ul li a {
+	width: 200px;
+	padding: 8px 0px;
+    border-top-color: transparent;
+    background-color: #76b72a;
+
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    transition:color .2s ease-out, background 1s ease-in;
+}
+
+#menu ul li ul {
+    display: none;
+    margin: 0;
+    background: #76b72a;
+    
+    width: 200px;
+    box-shadow: 1px 1px 15px #3a3938;
+}
+
+/* PROPIEDADES ESPECÍFICAS */
+
+#menu ul li.nivel1 { 
+	float: left;
+	margin-right: 1px;
+}
+
+#menu ul li a.nivel2 {
+	color: #000;
+}
+
+#menu ul li a.nivel1, #menu ul li a.nivel2 {
+	display: block;
+    position: relative;
+    
+}
+
+/* PROPIEDAD HOVER */
+
+#menu ul li:hover {
+    position: relative;
+}
+
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {
+	background-color: #F0F0F0;
+	color: #000;
+	position: relative;
+}
+
+#menu ul li:hover  ul.nivel2, #menu ul li a:hover  ul.nivel2{
+	display: block;
+    position: absolute;
+    left: 0px;
+}
+
+#menu ul li ul li a:hover ul.nivel3, #menu ul li ul li:hover ul.nivel3 {
+	display: block;
+	position: absolute;
+	left: 161px;
+	top:0px;
+}
+
+#menu ul li ul li a:hover {
+	border-top-color: #000;
+	position: relative;
+}
+
+
+
+
+
+#hear {
+    width: 0;
+    height: 0px;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 30px 512px 0 512px;
+    border-color:  #76b72a transparent transparent transparent;
+}
+#wrap {
+    width: 884px;
+    margin: 0 auto;
+    padding: 50px 70px 70px;
+    overflow: hidden;
+    /*background-color: darkcyan;*/
+}
+#sidebar {
+    width: 300px;
+    float: left;
+    /*background-color: bisque;*/
+}
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    color: darkgrey;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: 2.5px solid #76b72a;
+}
+.profile-name {
+    width: 230px;
+    height: 50px;
+    border: 2.5px solid #76b72a;
+    margin: 0 auto 20px;
+}
+.contact-skills {
+    width: 235px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+}
+.ref-div {
+    color: #3a3938;
+    margin: 20px 0 50px;
+}
+#sidecontent {
+    width: 584px;
+    /*background-color: chocolate;*/
+    float: right;
+}
+.profile {
+    
+}
+.enlarge {
+    width: 85%;
+    /*background-color: burlywood;*/
+    overflow: hidden;
+    text-align: left;
+    padding: 0 40px 20px 0;
+    margin: 0 auto;
+}
+#qfooter {
+    width: 944px;
+    height: 50px;
+    background-color: #565655;
+    color: aliceblue;
+    margin: 0 auto;
+    padding-left: 80px;
+}
+.flogo {
+    text-align: left;
+}
